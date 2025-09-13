@@ -4,7 +4,7 @@ import { Download, HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Timothy Babatunde Akanbi",
   initials: "TM",
-  url: "https://nileshkrpahari.xyz",
+  url: "https://portfolio-v5-navy.vercel.app/",
   location: "Lagos, Nigeria",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description: "engineer | web3 developer",
