@@ -20,6 +20,10 @@ export const DATA = {
     "PostgreSQL",
     "Git",
     "Vercel",
+    "Vercel AI SDK",
+    "Node.js",
+    "Supabase",
+    "Firebase"
   ],
 
   navbar: [
@@ -92,8 +96,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Contest Pulse",
-      href: "https://contestpulse.netlify.app/",
+      title: "Stampchain",
+      href: "https://stampchain-eight.vercel.app/",
       active: true,
       description:
         "A web app where users can see upcoming coding contests from various platforms like Codeforces, Leetcode, CodeChef, etc., bookmark them, and enable notifications.",
@@ -102,17 +106,19 @@ export const DATA = {
         "TypeScript",
         "TailwindCSS",
         "NextAuth",
-        "Prisma",
+        "Supabase",
+        "web3.js",
+        "Solana sdk",
       ],
       links: [
         {
           type: "Website",
-          href: "https://contestpulse.netlify.app/",
+          href: "https://stampchain-eight.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "GitHub",
-          href: "https://github.com/nileshpahari/contest-pulse",
+          href: "https://github.com/TimothyBabatu13/Stampchain",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -120,29 +126,27 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Clipzo",
-      href: "https://clipzo.vercel.app/",
+      title: "Vensol",
+      href: "https://vensol.vercel.app/",
       active: true,
       description:
         "A web app to download videos or audio from YouTube and other platforms using yt-dlp and FFmpeg, with custom options.",
       technologies: [
-        "Rust",
         "TypeScript",
-        "Next.js",
-        "Axum",
-        "yt-dlp",
-        "FFmpeg",
-        "Prisma",
+        "React.js",
+        "web3js",
+        "solana sdk",
+        "firebase"
       ],
       links: [
-        /*{
+        {
           type: "Website",
-          href: "https://clipzo.vercel.app/",
+          href: "https://vensol.vercel.app/",
           icon: <Icons.globe className="size-3" />,
-        },*/
+        },
         {
           type: "GitHub",
-          href: "https://github.com/nileshpahari/clipzo",
+          href: "https://github.com/TimothyBabatu13/VenSol",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -150,27 +154,27 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Votana",
-      href: "https://votana.vercel.app/",
+      title: "TokenMind",
+      href: "https://token-mind.vercel.app/",
       active: false,
       description:
         "A decentralized voting platform built on the solana blockchain.",
       technologies: [
         "Next.js",
         "TypeScript",
-        "Anchor",
-        "Rust",
-        "Redux Toolkit",
+        "Vercel AI SDK",
+        "web3js",
+        "Civic Auth",
       ],
       links: [
         {
           type: "Website",
-          href: "https://votana.vercel.app/",
+          href: "https://token-mind.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "GitHub",
-          href: "https://github.com/nileshpahari/votana",
+          href: "https://github.com/TimothyBabatu13/TokenMind",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -178,109 +182,109 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Walliy",
-      href: "https://walliy.vercel.app/",
+      title: "AegisHealth Smart",
+      href: "https://aegis-health-smart.vercel.app/",
       active: false,
       description:
         "A web-based crypto wallet where users can store private keys and interact with smart contracts.",
       technologies: [
         "Next.js",
-        "Redux Toolkit",
-        "@solana/web3.js",
         "TypeScript",
+        "TailwindCSS",
+        "Firebase"
       ],
       links: [
         {
           type: "Website",
-          href: "https://walliy.vercel.app/",
+          href: "https://aegis-health-smart.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "GitHub",
-          href: "https://github.com/nileshpahari/walliy",
+          href: "https://github.com/TimothyBabatu13/AegisHealth-Smart",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/wallet.png",
       video: "",
     },
-    {
-      title: "CF MCP Server",
-      href: "https://cf-mcp.vercel.app/",
-      active: false,
-      description:
-        "A MCP server for Codeforces to fetch contest data and other resources programmatically.",
-      technologies: ["Node.js", "TypeScript", "zod"],
-      links: [
-        /*{
-          type: "Website",
-          href: "https://cf-mcp.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },*/
-        {
-          type: "GitHub",
-          href: "https://github.com/nileshpahari/codeforces-mcp",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/cfmcp.png",
-      video: "",
-    },
-    {
-      title: "Media Sphere",
-      href: "",
-      active: false,
-      description: "Backend for a media sharing platform similar to YouTube.",
-      technologies: ["Node.js", "Express", "MongoDB", "TypeScript"],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/nileshpahari/media-sphere/",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/mediasphere.webp",
-      video: "",
-    },
-    {
-      title: "Basic React Blog",
-      href: "https://basic-react-blogging-app.netlify.app/",
-      active: false,
-      description:
-        "A blogging platform like Medium, allowing users to create, read, update, and delete articles.",
-      technologies: ["React", "Redux", "TinyMCE", "Appwrite"],
-      links: [
-        {
-          type: "Website",
-          href: "https://basic-react-blogging-app.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "GitHub",
-          href: "https://github.com/nileshpahari/react-blog",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/blog.png",
-      video: "",
-    },
-    {
-      title: "Top Chess",
-      href: "https://topchess.netlify.app/",
-      active: false,
-      description:
-        "A multiplayer real-time chess platform similar to chess.com or lichess.org.",
-      technologies: ["React", "WebSockets", "TypeScript", "Prisma"],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/nileshpahari/topchess",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/topchess.jpeg",
-      video: "",
-    },
+    // {
+    //   title: "CF MCP Server",
+    //   href: "https://cf-mcp.vercel.app/",
+    //   active: false,
+    //   description:
+    //     "A MCP server for Codeforces to fetch contest data and other resources programmatically.",
+    //   technologies: ["Node.js", "TypeScript", "zod"],
+    //   links: [
+    //     /*{
+    //       type: "Website",
+    //       href: "https://cf-mcp.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },*/
+    //     {
+    //       type: "GitHub",
+    //       href: "https://github.com/nileshpahari/codeforces-mcp",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/cfmcp.png",
+    //   video: "",
+    // },
+    // {
+    //   title: "Media Sphere",
+    //   href: "",
+    //   active: false,
+    //   description: "Backend for a media sharing platform similar to YouTube.",
+    //   technologies: ["Node.js", "Express", "MongoDB", "TypeScript"],
+    //   links: [
+    //     {
+    //       type: "GitHub",
+    //       href: "https://github.com/nileshpahari/media-sphere/",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/mediasphere.webp",
+    //   video: "",
+    // },
+    // {
+    //   title: "Basic React Blog",
+    //   href: "https://basic-react-blogging-app.netlify.app/",
+    //   active: false,
+    //   description:
+    //     "A blogging platform like Medium, allowing users to create, read, update, and delete articles.",
+    //   technologies: ["React", "Redux", "TinyMCE", "Appwrite"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://basic-react-blogging-app.netlify.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "GitHub",
+    //       href: "https://github.com/nileshpahari/react-blog",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/blog.png",
+    //   video: "",
+    // },
+    // {
+    //   title: "Top Chess",
+    //   href: "https://topchess.netlify.app/",
+    //   active: false,
+    //   description:
+    //     "A multiplayer real-time chess platform similar to chess.com or lichess.org.",
+    //   technologies: ["React", "WebSockets", "TypeScript", "Prisma"],
+    //   links: [
+    //     {
+    //       type: "GitHub",
+    //       href: "https://github.com/nileshpahari/topchess",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/topchess.jpeg",
+    //   video: "",
+    // },
   ],
 
   hackathons: [
