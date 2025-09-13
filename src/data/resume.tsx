@@ -104,7 +104,7 @@ export const DATA = {
       href: "https://stampchain-eight.vercel.app/",
       active: true,
       description:
-        "A web app where users can see upcoming coding contests from various platforms like Codeforces, Leetcode, CodeChef, etc., bookmark them, and enable notifications.",
+        `A web-based campaign platform built on Solana that turns ordinary promotions into real on-chain value. Instead of paper vouchers or clunky coupon codes, brands and influencers mint tokens and distribute them directly to people. These tokens can be redeemed for products, services, or experiences, creating a seamless and engaging way to connect with customers.`,
       technologies: [
         "Next.js",
         "TypeScript",
@@ -126,7 +126,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/contestpulse.webp",
+      image: "/stampchain.png",
       video: "",
     },
     {
@@ -134,7 +134,7 @@ export const DATA = {
       href: "https://vensol.vercel.app/",
       active: true,
       description:
-        "A web app to download videos or audio from YouTube and other platforms using yt-dlp and FFmpeg, with custom options.",
+        "A decentralized web-based payment platform built on Solana that makes everyday transactions fast, secure, and wallet-friendly. Instead of relying on traditional banking apps or manual bill splitting, users connect with their crypto wallets to send and receive SOL instantly. QR codes are generated for seamless bill sharing between friends, making group payments simple and transparent. VenSol brings the power of blockchain to daily spending, creating a smooth and trustless way to manage money with others.",
       technologies: [
         "TypeScript",
         "React.js",
@@ -154,7 +154,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/clipzo.webp",
+      image: "/vensol.png",
       video: "",
     },
     {
@@ -162,7 +162,7 @@ export const DATA = {
       href: "https://token-mind.vercel.app/",
       active: false,
       description:
-        "A decentralized voting platform built on the solana blockchain.",
+        "TokenMind is a web-based AI agent built with Next.js and powered by Vercel AI SDK. It helps users explore the crypto space by discovering trending tokens and retrieving detailed token information using wallet addresses. Users can log in securely with Civic authentication, ensuring a smooth and decentralized experience. While the platform showcases intelligent token insights, functionalities are limited due to external API rate limit.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -182,15 +182,15 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/votana.png",
+      image: "/tokenMind.png",
       video: "",
     },
     {
       title: "AegisHealth Smart",
       href: "https://aegis-health-smart.vercel.app/",
-      active: false,
+      active: true,
       description:
-        "A web-based crypto wallet where users can store private keys and interact with smart contracts.",
+        "AegisHealth Smart is a web-based health and wellness platform designed to help individuals take charge of their wellbeing. The frontend was built to deliver a smooth, user-friendly experience that encourages proactive health management. From tracking wellness goals to accessing personalized insights, the platform empowers users to make informed decisions about their lifestyle—all through an intuitive and responsive interface.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -209,47 +209,31 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/wallet.png",
+      image: "/project-1.jpg",
       video: "",
     },
-    // {
-    //   title: "CF MCP Server",
-    //   href: "https://cf-mcp.vercel.app/",
-    //   active: false,
-    //   description:
-    //     "A MCP server for Codeforces to fetch contest data and other resources programmatically.",
-    //   technologies: ["Node.js", "TypeScript", "zod"],
-    //   links: [
-    //     /*{
-    //       type: "Website",
-    //       href: "https://cf-mcp.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },*/
-    //     {
-    //       type: "GitHub",
-    //       href: "https://github.com/nileshpahari/codeforces-mcp",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/cfmcp.png",
-    //   video: "",
-    // },
-    // {
-    //   title: "Media Sphere",
-    //   href: "",
-    //   active: false,
-    //   description: "Backend for a media sharing platform similar to YouTube.",
-    //   technologies: ["Node.js", "Express", "MongoDB", "TypeScript"],
-    //   links: [
-    //     {
-    //       type: "GitHub",
-    //       href: "https://github.com/nileshpahari/media-sphere/",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/mediasphere.webp",
-    //   video: "",
-    // },
+    {
+      title: "TexttIt",
+      href: "https://textit.vercel.app/",
+      active: true,
+      description:
+        "TextIt is a web-based messaging platform designed to make communication effortless and real-time. Built with simplicity and clarity in mind, the app allows users to connect instantly, share thoughts, and engage in meaningful conversations.",
+      technologies: ["React.js", "Javascript", "Firebase"],
+      links: [
+        {
+          type: "Website",
+          href: "https://textit.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/TimothyBabatu13/Textit",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/project-2.jpg",
+      video: "",
+    },
     // {
     //   title: "Basic React Blog",
     //   href: "https://basic-react-blogging-app.netlify.app/",
@@ -305,3 +289,6 @@ export const DATA = {
     // },
   ],
 } as const;
+
+
+
